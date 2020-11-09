@@ -3,9 +3,13 @@ Type: Package
 Title: The REMIND R package
 Version: 36.161.0
 Date: 2020-10-23
-Author@R: Anastasis Giannousakis, Michaja Pehl
+Author@R: c(person("Anastasis", "Giannousakis", role = c("aut", "cre"),
+                   email = "giannou@pik-potsdam.de"), 
+            person("Michaja", "Pehl", role = "ctb"))
+Author: Anastasis Giannousakis <giannou@pik-potsdam.de>
 Maintainer: Anastasis Giannousakis <giannou@pik-potsdam.de>
-Description: Contains the REMIND-specific routines for data and model output manipulation.
+Description: Contains the REMIND-specific routines for data and model output 
+    manipulation.
 Depends:
     gdx(>= 1.29),
     magclass(>= 3.37)
